@@ -2,10 +2,13 @@
 
 Public App Store support and privacy pages for Fog Footprints.
 
-- English support: `/`
-- English privacy policy: `/privacy/`
-- Simplified Chinese support: `/zh/`
-- Simplified Chinese privacy policy: `/zh/privacy/`
+- English support: https://dinghuooooo.github.io/fog-footprints-support/
+- English privacy policy:
+  https://dinghuooooo.github.io/fog-footprints-support/privacy/
+- Simplified Chinese support:
+  https://dinghuooooo.github.io/fog-footprints-support/zh/
+- Simplified Chinese privacy policy:
+  https://dinghuooooo.github.io/fog-footprints-support/zh/privacy/
 
 The site is static, uses no cookies or analytics, and is published through
 GitHub Pages from the `main` branch.
