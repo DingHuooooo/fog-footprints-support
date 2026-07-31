@@ -30,86 +30,45 @@
   </header>
 
   <main id="policy">
-    <section class="hero">
+    <section class="hero privacy-hero">
       <div class="shell">
         <p class="eyebrow">Fog Footprints</p>
         <h1>Privacy Policy</h1>
-        <p class="lead">How the app processes photo metadata, stores local data, and protects your privacy.</p>
+        <p class="lead">Your photos and footprint data stay on your device.</p>
         <p class="meta">Effective July 22, 2026 · Last updated July 31, 2026</p>
       </div>
     </section>
 
     <section class="section">
-      <div class="shell policy-layout">
-        <nav class="policy-nav" aria-label="Privacy Policy sections">
-          <strong>Contents</strong>
-          <a href="#data">Data processed</a>
-          <a href="#photos">Photos and thumbnails</a>
-          <a href="#processing">On-device processing</a>
-          <a href="#storage">Storage and retention</a>
-          <a href="#deletion">Deletion and permissions</a>
-          <a href="#limited">Limited access</a>
-          <a href="#network">System services</a>
-          <a href="#collection">No collection</a>
-          <a href="#contact">Contact</a>
-        </nav>
-
+      <div class="shell">
         <article class="policy-content">
+          <p class="policy-statement"><strong>In short:</strong> Fog Footprints has no account, ads, analytics, tracking, or developer cloud service. It does not send your photos, locations, footprint data, or statistics to the developer or third parties.</p>
+
           <section id="data">
-            <h2>1. Data processed by the app</h2>
-            <p>After you grant Photos access and start a scan, the app may read:</p>
-            <ul>
-              <li>Local identifiers of photos currently visible to the app.</li>
-              <li>Photo locations from <code>PHAsset.location</code>.</li>
-              <li>Photo creation and modification dates.</li>
-              <li>Lightweight attributes such as dimensions and media subtype, used to detect changes and reuse local caches.</li>
-              <li>The visible photo count and an identifier fingerprint, used to detect library or limited-access changes.</li>
-            </ul>
+            <h2>Data the app uses</h2>
+            <p>After you grant Photos access, the app reads only the metadata needed to build your map: a local photo identifier, location, date, and lightweight properties used to detect changes. With Limited Photos access, only the photos you select are processed.</p>
             <p>The app does not request current-location permission, track your location in the background, or perform face, object, text, or scene recognition.</p>
           </section>
 
-          <section id="photos">
-            <h2>2. Photos and thumbnails</h2>
-            <p>Footprint scanning uses only the metadata above and does not read original photo pixels.</p>
-            <p>Photo lists, exclusion screens, and point or cluster previews may request local thumbnails through Apple’s Photos framework so you can identify photos. These thumbnails are displayed only on your device and are not uploaded. Thumbnail requests controlled by the app disable iCloud network downloads.</p>
-            <p>When you explicitly open a full-screen photo preview, the Photos framework may download a display-sized image, including from iCloud. The image remains on the device and is not sent to the developer.</p>
-          </section>
-
           <section id="processing">
-            <h2>3. On-device processing</h2>
-            <p>The app performs footprint aggregation, offline boundary matching, statistics, map presentation, photo placement, and exclusion processing on your device. It has no account system, advertising, third-party analytics SDK, or developer cloud-sync service.</p>
-          </section>
-
-          <section id="storage">
-            <h2>4. Local storage and retention</h2>
-            <p>The app stores footprint snapshots, exclusions, photo metadata and placement caches, photo-access snapshots, boundary caches, and interface caches in its local container. Application Support data is marked as excluded from device backups.</p>
-            <p>This data remains until you use Delete All Local Data or uninstall the app. iOS may clear caches earlier; the app can rebuild them from locally available photo metadata and bundled offline boundaries.</p>
-          </section>
-
-          <section id="deletion">
-            <h2>5. Deletion and permission control</h2>
-            <p>You can use Settings &gt; Delete All Local Data at any time, including when Photos access is disabled. This removes the app’s footprints, statistics, exclusions, photo metadata, photo placements, access snapshot, language preference, and caches.</p>
-            <p>Deleting local app data or uninstalling the app does not delete anything from Apple Photos and does not change Photos permission managed by iOS. You can change or revoke that permission separately in System Settings.</p>
-          </section>
-
-          <section id="limited">
-            <h2>6. Limited Photos access</h2>
-            <p>With limited access, the app processes only photos you make visible. The app registers for Photos change notifications only after photo authorization has been determined. Notifications only mark that the library may have changed; the app does not scan in the background. After the app becomes active, it compares authorization and the visible-photo fingerprint and updates footprints only when they actually changed.</p>
+            <h2>Local processing and storage</h2>
+            <p>Map generation, boundary matching, statistics, and exclusions happen on your iPhone. The app keeps map results, preferences, and rebuildable caches in its local container.</p>
+            <p>Photo thumbnails are requested through Apple Photos only when needed for display. A photo stored in iCloud may download when you explicitly open it. Photos and thumbnails are never sent to the developer.</p>
           </section>
 
           <section id="network">
-            <h2>7. Network and Apple system services</h2>
-            <p>Footprint generation does not use a developer server. Apple Maps may load basemap content through MapKit. Apple’s Photos service may use the network when you explicitly preview a photo stored only in iCloud. These connections are provided by Apple system services and are subject to Apple’s applicable privacy policies.</p>
+            <h2>Network access</h2>
+            <p>The app has no developer server. Apple Maps may load basemap content, and Apple Photos may download an iCloud photo that you choose to open. These connections are handled by Apple’s system services.</p>
           </section>
 
-          <section id="collection">
-            <h2>8. No collection, tracking, or sale</h2>
-            <p>The app does not transmit photos, thumbnails, photo locations, footprint coordinates, statistics, or local identifiers to the developer or third parties. It therefore does not collect these data under the App Store privacy-label definition. The app does not track you, sell data, or use data for advertising.</p>
+          <section id="controls">
+            <h2>Your controls</h2>
+            <p>Use Settings &gt; Delete All Local Data to clear the app’s map data, photo metadata, preferences, and caches. You can also change Photos access in iOS Settings or remove all local app data by uninstalling the app. None of these actions deletes photos from Apple Photos.</p>
           </section>
 
           <section id="contact">
-            <h2>9. Changes and contact</h2>
-            <p>If the app’s data practices materially change, this policy will be updated with a new date and explanation.</p>
+            <h2>Contact</h2>
+            <p>This page will be updated if the app’s data practices change.</p>
             <p>For privacy, deletion, or support questions, email <a href="mailto:cancer061218@gmail.com?subject=Fog%20Footprints%20Privacy">cancer061218@gmail.com</a>.</p>
           </section>
         </article>
@@ -125,4 +84,3 @@
   </footer>
 </body>
 </html>
-
