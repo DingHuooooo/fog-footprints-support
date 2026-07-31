@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#08745b">
+  <meta name="description" content="Official support for Fog Footprints, the private on-device photo footprint map for iPhone.">
+  <title>Fog Footprints Support</title>
+  <link rel="canonical" href="https://dinghuooooo.github.io/fog-footprints-support/">
+  <link rel="alternate" hreflang="en" href="https://dinghuooooo.github.io/fog-footprints-support/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dinghuooooo.github.io/fog-footprints-support/zh/">
+  <link rel="icon" href="assets/app-icon.png">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="./" aria-label="Fog Footprints Support home">
+        <img src="assets/app-icon.png" alt="">
+        <span>Fog Footprints</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="./" aria-current="page">Support</a>
+        <a href="privacy/">Privacy</a>
+        <a href="zh/" lang="zh-Hans">中文</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="shell">
+        <div class="hero-lockup">
+          <img class="hero-icon" src="assets/app-icon.png" alt="Fog Footprints app icon">
+          <div>
+            <p class="eyebrow">Official App Support</p>
+            <h1>Fog Footprints Support</h1>
+            <p class="lead">Help with photo access, footprint scanning, place matching, exclusions, and local data.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-band" aria-labelledby="contact-title">
+      <div class="shell contact-layout">
+        <div>
+          <h2 id="contact-title">Contact support</h2>
+          <p>Include the app version, iOS version, and a short description of what happened. Please do not attach personal photos or precise locations unless they are necessary to explain the issue.</p>
+        </div>
+        <a class="primary-action" href="mailto:cancer061218@gmail.com?subject=Fog%20Footprints%20Support">cancer061218@gmail.com</a>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="questions-title">
+      <div class="shell">
+        <h2 id="questions-title">Common questions</h2>
+        <div class="faq-list">
+          <details>
+            <summary>Why does the map show no footprints?</summary>
+            <p>Fog Footprints can only use photos that are visible to the app and contain capture-location metadata. Check Photos access in iOS Settings, then open Settings in the app and choose Update Footprints.</p>
+          </details>
+          <details>
+            <summary>Why are some photos grouped under Unknown Place?</summary>
+            <p>A photo can contain GPS coordinates that do not match a supported land or marine boundary with enough confidence. The app keeps that photo under Unknown Place rather than assigning an incorrect country or region.</p>
+          </details>
+          <details>
+            <summary>Why can a group have photos but show no thumbnails?</summary>
+            <p>This can happen after the visible Photos selection changes or when a photo is stored only in iCloud. Update the footprint after changing Photos access. Thumbnail requests do not download from iCloud; opening an individual photo preview can let the system Photos service retrieve a display-sized image.</p>
+          </details>
+          <details>
+            <summary>How does limited Photos access work?</summary>
+            <p>The footprint is calculated only from the photos you selected. You can change the visible selection in iOS Settings, then update the footprint from the app.</p>
+          </details>
+          <details>
+            <summary>Does the app track my current location?</summary>
+            <p>No. Fog Footprints does not request Core Location permission and does not perform live or background location tracking. It only reads location metadata already stored in photos you allow it to see.</p>
+          </details>
+          <details>
+            <summary>How do I remove local app data?</summary>
+            <p>Open Settings in Fog Footprints and choose Delete All Local Data. This removes the app’s footprints, caches, exclusions, and preferences. It does not delete photos or change the Photos permission managed by iOS.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="privacy-title">
+      <div class="shell">
+        <h2 id="privacy-title">Privacy by design</h2>
+        <div class="feature-grid">
+          <div class="feature">
+            <h3>On-device processing</h3>
+            <p>Footprint calculation and boundary matching happen on your iPhone.</p>
+          </div>
+          <div class="feature">
+            <h3>No account or analytics</h3>
+            <p>The app has no account system, ads, analytics service, or developer cloud sync.</p>
+          </div>
+          <div class="feature">
+            <h3>No photo uploads</h3>
+            <p>Photos, thumbnails, locations, footprints, and statistics are not sent to the developer.</p>
+          </div>
+        </div>
+        <p class="note"><a href="privacy/">Read the complete Privacy Policy</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <p>Fog Footprints · iPhone</p>
+      <p><a href="privacy/">Privacy Policy</a></p>
+    </div>
+  </footer>
+</body>
+</html>

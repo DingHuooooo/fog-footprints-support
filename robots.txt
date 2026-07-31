@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dinghuooooo.github.io/fog-footprints-support/sitemap.xml
+

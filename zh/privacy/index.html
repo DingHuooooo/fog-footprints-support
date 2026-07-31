@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#08745b">
+  <meta name="description" content="散雾地图 iPhone App 隐私政策。">
+  <title>隐私政策 · 散雾地图</title>
+  <link rel="canonical" href="https://dinghuooooo.github.io/fog-footprints-support/zh/privacy/">
+  <link rel="alternate" hreflang="en" href="https://dinghuooooo.github.io/fog-footprints-support/privacy/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://dinghuooooo.github.io/fog-footprints-support/zh/privacy/">
+  <link rel="icon" href="../../assets/app-icon.png">
+  <link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#policy">跳到隐私政策</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="../" aria-label="散雾地图支持首页">
+        <img src="../../assets/app-icon.png" alt="">
+        <span>散雾地图</span>
+      </a>
+      <nav class="site-nav" aria-label="主要导航">
+        <a href="../">支持</a>
+        <a href="./" aria-current="page">隐私</a>
+        <a href="../../privacy/" lang="en">English</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="policy">
+    <section class="hero">
+      <div class="shell">
+        <p class="eyebrow">散雾地图</p>
+        <h1>隐私政策</h1>
+        <p class="lead">了解 App 如何处理照片元数据、保存本地数据并保护你的隐私。</p>
+        <p class="meta">生效日期：2026 年 7 月 22 日 · 最近更新：2026 年 7 月 31 日</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="shell policy-layout">
+        <nav class="policy-nav" aria-label="隐私政策目录">
+          <strong>目录</strong>
+          <a href="#data">处理的数据</a>
+          <a href="#photos">照片和缩略图</a>
+          <a href="#processing">本地处理</a>
+          <a href="#storage">存储与保留</a>
+          <a href="#deletion">删除与权限</a>
+          <a href="#limited">有限访问</a>
+          <a href="#network">系统服务</a>
+          <a href="#collection">不收集数据</a>
+          <a href="#contact">联系</a>
+        </nav>
+
+        <article class="policy-content">
+          <section id="data">
+            <h2>1. App 处理的数据</h2>
+            <p>在你主动授权照片访问并开始扫描后，App 可能读取：</p>
+            <ul>
+              <li>当前授权可见照片的本地资源标识。</li>
+              <li>照片的拍摄位置 <code>PHAsset.location</code>。</li>
+              <li>照片的拍摄和修改日期。</li>
+              <li>照片尺寸、媒体子类型等轻量信息，用于识别照片是否变化并复用本地缓存。</li>
+              <li>当前可见照片数量和资源标识指纹，用于判断图库或有限访问范围是否变化。</li>
+            </ul>
+            <p>App 不请求实时位置权限，不进行后台定位，也不做人脸、物体、文字或场景识别。</p>
+          </section>
+
+          <section id="photos">
+            <h2>2. 照片和缩略图</h2>
+            <p>足迹扫描只使用上述照片元数据，不读取原始照片画面。</p>
+            <p>照片列表、排除照片和散点或聚类预览可能通过系统 Photos 框架请求本机缩略图，以便你识别照片。这些缩略图只在设备界面中显示，不会上传；App 控制的缩略图请求禁用 iCloud 网络下载。</p>
+            <p>当你主动打开单张照片预览时，系统 Photos 框架可能下载该照片的显示尺寸版本，包括从 iCloud 下载。图片仍只用于本机预览，不会发送给开发者。</p>
+          </section>
+
+          <section id="processing">
+            <h2>3. 本地处理与用途</h2>
+            <p>足迹网格聚合、离线行政区和海域边界匹配、统计、地图展示、照片归属和排除规则处理均在设备本地完成。App 没有账号、广告、第三方分析 SDK 或开发者云同步服务。</p>
+          </section>
+
+          <section id="storage">
+            <h2>4. 本地存储与保留</h2>
+            <p>App 会在自己的本地容器中保存足迹快照、排除设置、照片元数据缓存、照片归属缓存、照片访问快照、边界命中缓存和界面缓存。Application Support 数据被标记为不参与设备备份。</p>
+            <p>这些数据会保留到你执行“删除全部本地数据”或卸载 App。缓存可能由 iOS 提前清理，并可由 App 从本地照片元数据和随 App 打包的离线边界重新生成。</p>
+          </section>
+
+          <section id="deletion">
+            <h2>5. 删除数据与权限控制</h2>
+            <p>你可以随时在“设置 &gt; 删除全部本地数据”中删除 App 保存的全部本地状态，包括足迹、统计、排除记录、照片元数据、照片归属、访问快照、语言偏好和缓存。即使照片权限已经关闭，该入口仍可使用。</p>
+            <p>删除本地数据或卸载 App 不会删除 Apple Photos 中的照片，也不会修改 iOS 管理的照片权限。你可以在系统设置中单独更改或撤销照片权限。</p>
+          </section>
+
+          <section id="limited">
+            <h2>6. 有限照片访问</h2>
+            <p>如果你选择有限照片访问，App 只处理授权可见照片。App 只在照片权限已经确定后注册 Photos 框架的变更通知，该通知仅用于记录“图库可能变化”；App 不会在后台扫描。App 回到前台后才比较权限和可见照片指纹，并仅在实际变化时更新本地足迹。</p>
+          </section>
+
+          <section id="network">
+            <h2>7. 网络和 Apple 系统服务</h2>
+            <p>足迹生成不依赖开发者服务器。Apple Maps 底图由系统 MapKit 服务按需联网加载；当你主动预览仅存在于 iCloud 的照片时，系统 Photos 服务也可能联网下载该照片。上述连接由 Apple 的系统服务提供，适用 Apple 的相关隐私政策。</p>
+          </section>
+
+          <section id="collection">
+            <h2>8. 不收集、不跟踪、不出售</h2>
+            <p>App 不把照片、缩略图、照片位置、足迹坐标、统计或本地标识传输给开发者或第三方。因此这些数据不构成 App Store 隐私标签定义下由开发者收集的数据。App 不跟踪你，不出售数据，也不将数据用于广告。</p>
+          </section>
+
+          <section id="contact">
+            <h2>9. 政策变更与联系</h2>
+            <p>如果 App 的数据处理方式发生实质变化，本政策会更新日期和内容。</p>
+            <p>隐私、删除或支持问题请发送邮件至 <a href="mailto:cancer061218@gmail.com?subject=%E6%95%A3%E9%9B%BE%E5%9C%B0%E5%9B%BE%E9%9A%90%E7%A7%81">cancer061218@gmail.com</a>。</p>
+          </section>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <p>散雾地图 · 隐私政策</p>
+      <p><a href="../">支持</a></p>
+    </div>
+  </footer>
+</body>
+</html>
+
