@@ -1,6 +1,6 @@
-# Fog Footprints Support
+# Once Here Support
 
-Public App Store support and privacy pages for Fog Footprints.
+Public App Store support and privacy pages for Once Here (曾在).
 
 - English support: https://dinghuooooo.github.io/fog-footprints-support/
 - English privacy policy:
